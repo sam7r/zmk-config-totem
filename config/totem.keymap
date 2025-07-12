@@ -114,10 +114,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none   &none   &none       &none   &none     &none   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
-       &trans  &trans  &trans      &trans  &none     &none   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DELETE
-&mo 6  &none   &none   &none       &none   &none     &none   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans      &trans
-                       &kp PERIOD  &mo 5   &trans    &trans  &trans           &kp KP_NUMBER_0
+       &none   &none   &none       &none   &none     &none   &kp N7        &kp N8        &kp N9        &trans
+       &trans  &trans  &trans      &trans  &none     &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DELETE
+&mo 6  &none   &none   &none       &none   &none     &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans
+                       &kp PERIOD  &mo 5   &trans    &trans  &trans        &kp N0
             >;
         };
 
