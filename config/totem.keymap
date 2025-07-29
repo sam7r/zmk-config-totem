@@ -29,16 +29,12 @@
     tapping-term-ms = <170>;
 };
 
-/ {
-    combos {
-        compatible = "zmk,combos";
+&mmv { acceleration-exponent = <2>; };
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-    };
+&msc { acceleration-exponent = <1>; };
+
+/ {
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
