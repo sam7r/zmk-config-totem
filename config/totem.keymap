@@ -29,9 +29,9 @@
     tapping-term-ms = <170>;
 };
 
-&mmv { acceleration-exponent = <2>; };
+&mmv { acceleration-exponent = <4>; };
 
-&msc { acceleration-exponent = <1>; };
+&msc { acceleration-exponent = <2>; };
 
 / {
     combos { compatible = "zmk,combos"; };
